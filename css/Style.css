@@ -75,6 +75,9 @@ body {
   width: 100%;
   height: auto;
 }
+.goHome{
+	color: #FFFFFF;
+}
 .PageTitle {
   width: auto;
   height: 76px;
@@ -238,11 +241,20 @@ body {
   cursor: pointer;
   color: #4e4e4e;
 }
+.SlectList li a{color: #4E4E4E;}
+.SlectList p{
+	font-size: 18px;
+	width: auto;
+	height: 100%;
+	color: #FFFFFF;
+	line-height: 36px;
+}
 @media only screen and (max-width: 580px) {
   .SlectList li {
     font-size: 14px;
     color: #FFFFFF;
   }
+  .SlectList li a{color: #FFFFFF;}
 }
 .SlectListLiHover {
   background-color: #4e4e4e;

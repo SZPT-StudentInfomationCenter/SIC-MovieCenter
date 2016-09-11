@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var screenHeight = $(window).height();
 	var containerHeight = $(".container").height();
 	$(".showPage").eq(0).addClass("showPageOn");
-	$(".SlectList li").eq(0).addClass("SlectListLiHover");
+//	$(".SlectList li").eq(0).addClass("SlectListLiHover");
 	$(".SlectList li").click(function(){
 		$(this).addClass("SlectListLiHover").siblings().removeClass("SlectListLiHover");
 	});
